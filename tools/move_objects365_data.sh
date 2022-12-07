@@ -1,0 +1,1 @@
+mpirun --allow-run-as-root -x NCCL_IB_HCA=mlx5_4,mlx5_6,mlx5_8,mlx5_10 -np ${NGC_ARRAY_SIZE} -npernode 1 bash -c "cp -r /Objects365 /raid"

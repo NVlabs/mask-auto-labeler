@@ -1,4 +1,4 @@
-_base_ = 'solov2_r50_fpn_3x_coco.py'
+_base_ = '../GTMask/solov2_r50_fpn_3x_coco.py'
 
 # model settings
 model = dict(
@@ -11,3 +11,16 @@ model = dict(
         mask_feature_head=dict(conv_cfg=dict(type='DCNv2')),
         dcn_cfg=dict(type='DCNv2'),
         dcn_apply_to_all_conv=True))
+
+lr_config = dict(
+    policy='step',
+    warmup='linear',
+    warmup_iters=2000,
+    warmup_ratio=1.0 / 10,
+    step=[27, 33])
+
+data=dict(
+    train=dict(ann_file='../pseudo_labels/coco/instances_train2017_mal.json'),
+    test=dict(
+        ann_file='data/coco/annotations/image_info_test-dev2017.json',
+        img_prefix='data/coco/test2017/'))
