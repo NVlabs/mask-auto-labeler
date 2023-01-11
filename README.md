@@ -7,13 +7,11 @@
 
 
 
-### [Paper](https://arxiv.org/abs/2105.06464)
-
-
-
-### Vision Transformers are Good Mask Auto-Labelers
+[Vision Transformers are Good Mask Auto-Labelers](https://arxiv.org/abs/2301.03992)
 
 [Shiyi Lan](https://voidrank.github.io/), [Xitong Yang](https://scholar.google.com/citations?user=k0qC-7AAAAAJ&hl=en), [Zhiding Yu](https://chrisding.github.io/), [Zuxuan Wu](https://zxwu.azurewebsites.net/), [Jose M. Alvarez](https://alvarezlopezjosem.github.io/), [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/)
+
+Technical Report
 
 ## Installation
 
