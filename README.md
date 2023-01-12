@@ -57,15 +57,16 @@ bash tools/dist_test.sh configs/MALMask/solov2_r50_fpn_3x_coco_mal.py solov2_r50
 
 For more detail, please refer the [documentation](https://mmdetection.readthedocs.io/en/latest/) or [github repo](https://github.com/open-mmlab/mmdetection/tree/5fb38fa4fc4a822ba6ced3b8c2e3dcefa6efacec) of mmdetection.
 
-### Trained Weights
+
 
 ### Phase 1: Mask Auto-labeling
+#### Trained Weights
 
 |  ViT-MAE-base (COCO)  |  MAL-ViT-base (LVIS v1.0)  |
 |:---------------------:|:---------------------:|
 |   [download](https://drive.google.com/file/d/1QnDcYTiRzOQf9-Xy7KnMGiEx_3UrMNxQ/view?usp=sharing)  |  [download](https://drive.google.com/file/d/1rScy9rg-2RFEQS_ggtZR1dY9Fy6kAm4K/view?usp=sharing) |
 
-### Phase 1: Mask Pseudo-labels
+#### Mask Pseudo-labels
 
 | MAL-ViT-base (COCO train2017) | MAL-ViT-base (LVIS v1.0 train) |
 |:------------:|:-----------:|
