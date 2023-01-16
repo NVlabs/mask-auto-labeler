@@ -85,6 +85,11 @@ For more detail, please refer the [documentation](https://mmdetection.readthedoc
 | ConvNeXt-b | Cascade MR-CNN  | [download](https://drive.google.com/file/d/14JBCJV3VFB4WeFCh_tZk_GXMEwkUoKRU/view?usp=sharing) |
 | Swin-s     | Mask2Former    | [download](https://drive.google.com/file/d/1Yfuw7i1amO_KQb51g40HsAgFxtyUawcf/view?usp=share_link) |
 
+## F.A.Q.
+
+It seems like MIL loss is using mask labels for training?
+
+No, we do not use mask. Check [this](https://github.com/NVlabs/mask-auto-labeler/issues/2)
 
 ## LICENSE
 
