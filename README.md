@@ -11,7 +11,7 @@
 
 [Shiyi Lan](https://voidrank.github.io/), [Xitong Yang](https://scholar.google.com/citations?user=k0qC-7AAAAAJ&hl=en), [Zhiding Yu](https://chrisding.github.io/), [Zuxuan Wu](https://zxwu.azurewebsites.net/), [Jose M. Alvarez](https://alvarezlopezjosem.github.io/), [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/)
 
-Technical Report
+Accepted by Conference on Computer Vision and Pattern Recognition (**CVPR**) 2023.
 
 ## Installation
 
