@@ -64,7 +64,7 @@ For more detail, please refer the [documentation](https://mmdetection.readthedoc
 
 |  ViT-MAE-base (COCO)  |  MAL-ViT-base (LVIS v1.0)  |
 |:---------------------:|:---------------------:|
-|   [download](https://drive.google.com/file/d/1QnDcYTiRzOQf9-Xy7KnMGiEx_3UrMNxQ/view?usp=sharing)  |  [download](https://drive.google.com/file/d/1rScy9rg-2RFEQS_ggtZR1dY9Fy6kAm4K/view?usp=sharing) |
+|   [download](https://drive.google.com/file/d/1VEhlZV-McaizuPBQxNj6x-Ip0xemeGdB/view?usp=sharing)  |  [download](https://drive.google.com/file/d/1rScy9rg-2RFEQS_ggtZR1dY9Fy6kAm4K/view?usp=sharing) |
 
 #### Mask Pseudo-labels
 
