@@ -87,9 +87,13 @@ For more detail, please refer the [documentation](https://mmdetection.readthedoc
 
 ## F.A.Q.
 
-It seems like MIL loss is using mask labels for training?
+#### It seems like MIL loss is using mask labels for training?
 
 No, we do not use mask. Check [this](https://github.com/NVlabs/mask-auto-labeler/issues/2)
+   
+#### I met errors during training/testing and *MMCV exists in the error log*, how do I do?
+
+You have to rebuild your own docker since your nvidia driver version is different from mine and there are some customized operators in MMCV.
 
 ## LICENSE
 
